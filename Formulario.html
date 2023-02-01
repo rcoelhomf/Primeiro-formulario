@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de presença</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label>
+        <br>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome inteiro..." required="true">
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="text" name="email" id="email" placeholder="Digite o seu e-mail..." required="true">
+        <br>
+        <br>
+        <label for="motivacao">O que te motivou a participar do evento:</label>
+        <br>
+        <textarea name="motivacao" id="motivacao" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="modulo">Em que modulo você está:</label>
+        <br>
+        <select name="modulo" id="modulo">
+            <option value="">Selecione o seu modulo</option>
+            <option value="M1">M1</option>
+            <option value="M2">M2</option>
+            <option value="M3">M3</option>
+            <option value="M4">M4</option>
+            <option value="M5">M5</option>
+            <option value="M6">M6</option>
+        </select>
+        <br>
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" name="senha" id="senha" required="true">
+        <br>
+        <br>
+        <label for="senha2">Confirmar Senha</label>
+        <br>
+        <input type="password" name="senha2" id="senha2" required="true">
+        <br>
+        <br>
+        <label for="">Quer receber as novidades sobre a Kenzie por e-mail?</label>
+        <br>
+        <label for="novidadesim">Sim</label>
+        <input type="radio" name="novidade" id="novidadesim" value="sim">
+        <label for="novidadenao">Não</label>
+        <input type="radio" name="novidade" id="novidadenao" value="nao">
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
